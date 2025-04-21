@@ -51,6 +51,15 @@ mvn compile exec:java -Dexec.mainClass="com.example.client.ClientApplication"
 
 ---
 
+### Debugging
+```bash
+mvn clean install
+mvn exec:java -Dexec.mainClass="com.example.YourMainClass" \
+  -Dexec.args="" \
+  -Dexec.cleanupDaemonThreads=false \
+  -Dexec.jvmArgs="-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005"
+```
+
 ## 📂 How it Works
 
 1. Client reads a list of local file paths (e.g., `files/file1.txt`, `files/file2.txt`)
