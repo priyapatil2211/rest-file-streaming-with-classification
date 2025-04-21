@@ -9,3 +9,8 @@ mvn install:install-file -Dfile=client/libs/classification-sdk-1.0-release-221.9
 </dependency>
 
 
+echo "This is custom text." > 1MBfile.txt
+dd if=/dev/zero bs=1M count=1 seek=1 >> 1MBfile.txt
+
+
+
