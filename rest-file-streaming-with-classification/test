@@ -1,0 +1,10 @@
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for org.springframework.boot:spring-boot-starter-webflux:jar is missing. @ line 22, column 21
+[ERROR] 'dependencies.dependency.version' for com.fasterxml.jackson.core:jackson-databind:jar is missing. @ line 28, column 21
+[ERROR] 'dependencies.dependency.version' for org.projectlombok:lombok:jar is missing. @ line 34, column 21
+[ERROR] 'dependencies.dependency.version' for org.springframework.boot:spring-boot-starter-test:jar is missing. @ line 41, column 21
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project com.example:file-streaming-server:1.0.0 (/home/priya.patil/Java-REST-POC/rest-file-streaming-with-classification/rest-file-streaming-with-classification/server/pom.xml) has 4 errors
