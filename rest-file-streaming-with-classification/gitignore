@@ -1,0 +1,27 @@
+
+# Maven
+target/
+*.log
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Java class files
+*.class
+
+# Custom libraries
+client/libs/*.jar
+
+# Backup files
+*.bak
+*.tmp
+
+# Other
+server/target/
+client/target/
